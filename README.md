@@ -13,10 +13,10 @@ We use a simple **Transformer model** to produce the baseline for these tasks. T
 
 ![Baseline](fig/transformer.png)
 
-| Task              | Baseline |
+| Task              | Baseline (WER) |
 |-------------------|----------|
-| **Signer Independent** | [Baseline] |
-| **Unseen Sentences**    | [Baseline] |
+| **Signer Independent** | 46.53% |
+| **Unseen Sentences**    | 92.75% |
 
 ## Setup Instructions
 
@@ -24,8 +24,8 @@ Follow these steps to set up the environment and get started:
 
 1. **Clone the repository**:
    ```bash
-   git clone <repo-url>
-   cd <repo-folder>
+   git clone https://github.com/gufranSabri/Pose86K-CSLR-Isharah.git
+   cd Pose86K-CSLR-Isharah
    ```
 
 2. **Download the dataset** from [here](https://www.kaggle.com/competitions/continuous-sign-language-recognition-iccv-2025/data). Place the dataset in the `./data` folder.
