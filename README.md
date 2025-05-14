@@ -13,7 +13,7 @@ We use a simple **Transformer model** to produce the baseline for these tasks. T
 
 ![Baseline](fig/transformer.png)
 
-| Task              | Baseline (WER) |
+| Task              | Baseline Dev (WER) |
 |-------------------|----------|
 | **Signer Independent** | 46.53% |
 | **Unseen Sentences**    | 92.75% |
