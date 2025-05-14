@@ -45,7 +45,6 @@ Follow these steps to set up the environment and get started:
    - Install the required dependencies:
      ```bash
      pip install torch==1.13 torchvision==0.14 tqdm numpy==1.23.5 pandas opencv-python
-     ```
      git clone --recursive https://github.com/parlance/ctcdecode.git
      cd ctcdecode && pip install .
      ```
