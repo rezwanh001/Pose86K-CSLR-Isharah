@@ -106,7 +106,7 @@ def evaluate_model(model, dataloader, decoder_dec, device, inv_vocab_map, work_d
 def main(args):
     set_rng_state(42)
     make_workdir(args.work_dir)
-    device = torch.device(f"cuda:{args.device}" if torch.cuda.is_available() else "cpu")
+    device = torch.device(f"cuda:{args.device}" if torch.cuda.is_available() else "cpu") 
         
     train_csv = os.path.join(args.data_dir, f"isharah1000/annotations/{args.mode}/train.txt")
     dev_csv = os.path.join(args.data_dir, f"isharah1000/annotations/{args.mode}/dev.txt")
@@ -183,3 +183,9 @@ if __name__ == '__main__':
     args.num_epochs = int(args.num_epochs)
     
     main(args)
+
+'''
+SI : Task-1 : python main.py --work_dir ./work_dir/base_SI --model base --mode SI
+
+US : Task-2 : python main.py --work_dir ./work_dir/base_US --model base --mode US
+'''
